@@ -41,7 +41,7 @@ const Home = () => {
         <div className='todo-home'>
             <h1>All Tasks</h1>
             <form onSubmit={handleSubmit}>
-                <input onBlur={handleInputField} name="task"  className='todo-input' type="text" placeholder='Create new project' required/>
+                <input onBlur={handleInputField} name="task"  className='todo-input' type="text" placeholder='Today Task' required/>
                 <button type="submit" className='btn-hi'><HiCheck /></button>
                 
             </form>
