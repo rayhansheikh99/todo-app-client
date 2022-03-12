@@ -7,7 +7,7 @@ const AllTask = () => {
     const [tasks, setTasks]=useState([])
     // data fetch 
     useEffect(()=>{
-        fetch('http://localhost:5000/alltask')
+        fetch('https://serene-coast-78648.herokuapp.com/alltask')
         .then(res=>res.json())
         .then(data=> setTasks(data))
 
