@@ -16,7 +16,7 @@ const Home = () => {
         
       };
 
-     
+     //post method
 
       const handleSubmit = e => {
         const data = {

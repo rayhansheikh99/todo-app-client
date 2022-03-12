@@ -6,6 +6,8 @@ const Tasks = (props) => {
     const {task, _id} = props.task
     const [tasks, setTasks]=useState([])
 
+
+    //delete task
     const handleDeletePost = id =>{
         const proceed = window.confirm("Are you want to delete?")
         console.log(id)

@@ -5,7 +5,7 @@ import './alltask.css'
 const AllTask = () => {
 
     const [tasks, setTasks]=useState([])
-    // data fetch 
+    // data fetch from database
     useEffect(()=>{
         fetch('https://serene-coast-78648.herokuapp.com/alltask')
         .then(res=>res.json())
